@@ -1,17 +1,15 @@
 .box{
-    height: 60px;
-    width: 100%;
-    display: flex;
+    width: 30%;
 }
 .time{
-width: 30%;
-border: black solid 1px;
+height: 60px;
+width: 100%;
+/* border: black solid 1px; */
 }
 .timeline{
-   height: 60px; 
    width: 70%;
 }
-.timeline>div{
-    border: 1px solid white;
+.table{
     width: 100%;
+    display: flex;
 }

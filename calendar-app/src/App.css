@@ -1,16 +1,29 @@
 *{
-  font-family: sans-serif;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 .head{
   font-weight: bolder;
+  width: 60%;
 }
 .dateBox{
-width: 20%;
+width: 30%;
 }
 
+.allEvents{
+width: 10%;
+background-color: white;
+border: 0px;
+}
+.allEvents:hover{
+ background-color: #282c34; 
+}
+.allEvents>img{
+  width: 100%;
+}
 .day{
   border: 1px black solid;
   display: flex;
+  justify-content:space-between ;
   width: 100%;
 }
 .day1{
@@ -22,13 +35,20 @@ width: 20%;
 
 .date{
   color:skyblue;
+  width: 80%;
 }
 .nav{
   display: flex;
   width: 100%;
   border: 1px black solid;
 }
-
+.vis{
+  display: block;
+  position: absolute;
+}
+.not{
+  display: none;
+}
 .expImg{
 width: 100%; 
 border-radius: 0%; 
@@ -41,6 +61,14 @@ border: 0px;
 
 .change:hover{
   background-color: gray;
+}
+.see{
+  display: block;
+  position: absolute;
+  background-color:white;
+}
+.in{
+  display: none;
 }
 
 .App {
