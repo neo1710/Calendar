@@ -4,10 +4,19 @@
 .time{
 height: 60px;
 width: 100%;
-/* border: black solid 1px; */
+border: black solid 1px; 
 }
 .timeline{
    width: 70%;
+}
+.timeline>div{
+    height: 60px;
+    width: 100%;
+    border: 1px solid black;
+}
+.timeline>div>h3{
+   background-color: green;
+   color: white; 
 }
 .table{
     width: 100%;
